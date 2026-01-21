@@ -27,7 +27,7 @@ const {
 
 // ---------------- CONFIG ----------------
 
-const BOT_NAME_FANCY = 'chatuwa xmd';
+const BOT_NAME_FANCY = 'ADEE X MD';
 
 const config = {
   AUTO_VIEW_STATUS: 'true',
@@ -36,18 +36,18 @@ const config = {
   AUTO_LIKE_EMOJI: ['🔥','😀','👍','😃','😄','😁','😎','🥳','🌞','🌈','❤️'],
   PREFIX: '.',
   MAX_RETRIES: 3,
-  GROUP_INVITE_LINK: 'https://chat.whatsapp.com/BoESlYREL3y5cOGqcjw0qC',
-  RCD_IMAGE_PATH: ' https://i.ibb.co/xt5KBq5v/tourl-1767885350265.jpg',
-  NEWSLETTER_JID: '120363421928314589@newsletter',
+  GROUP_INVITE_LINK: 'https://chat.whatsapp.com/BhemgSVZDHfIVMFOEgn3D4',
+  RCD_IMAGE_PATH: ' https://files.catbox.moe/1bho69.jpg',
+  NEWSLETTER_JID: '120363407804667405@newsletter',
   OTP_EXPIRY: 300000,
-  OWNER_NUMBER: process.env.OWNER_NUMBER || '94741336039',
-  CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb6waKhEKyZAi8MB773U',
+  OWNER_NUMBER: process.env.OWNER_NUMBER || '923131613251',
+  CHANNEL_LINK: 'https://whatsapp.com/channel/0029VavP4nX0G0XggHzhVg0R',
   BOT_NAME: '𝐂𝐘𝐁𝐄𝐑 𝐍𝐎𝐕𝐀 𝐅𝐎𝐑𝐂𝐄 V1',
   BOT_VERSION: '1.0.0V',
-  OWNER_NAME: 'chatuwa',
-  IMAGE_PATH: ' https://i.ibb.co/xt5KBq5v/tourl-1767885350265.jpg',
-  BOT_FOOTER: '𝐂𝐘𝐁𝐄𝐑 𝐍𝐎𝐕𝐀 𝐅𝐎𝐑𝐂𝐄 md',
-  BUTTON_IMAGES: { ALIVE: ' https://i.ibb.co/xt5KBq5v/tourl-1767885350265.jpg' }
+  OWNER_NAME: 'MAFIA-ADEEL',
+  IMAGE_PATH: 'https://files.catbox.moe/1bho69.jpg ',
+  BOT_FOOTER: 'ᗩᗪᗴᗴᒪ-᙭-ᗰᗪ',
+  BUTTON_IMAGES: { ALIVE: ' https://files.catbox.moe/1bho69.jpg' }
 };
 
 async function msgHandler(sock, msg) {
@@ -79,10 +79,10 @@ async function msgHandler(sock, msg) {
     await sock.sendMessage(from, {
       text: `*🧬 BOT IDENTITY 🧬*
 ╔══════════════════════════════╗
-║ 🔹 *Name:* 𝐂𝙷𝙰𝚃𝚄 𝐗𝙼𝙳 🫆         
-║ 🔸 *Version:* V2                        ║
-║ 🌍 *Origin:* Sri Lanka 🇱🇰             
-║ 🛠️ *By:* Cyber Chatuwa         ║
+║ 🔹 *Name:* 𝐀ᴅᴇᴇʟ 𝐗𝙼𝙳 🫆         
+║ 🔸 *Version:* V3                        ║
+║ 🌍 *Origin:* ᴘᴀᴋɪsᴛᴀɴ 🇸🇦            
+║ 🛠️ *By:* MAFIA ADEEL          ║
 ╚══════════════════════════════╝
 
 ---
@@ -145,7 +145,7 @@ async function msgHandler(sock, msg) {
 ---
 
 🧠 _Stay sharp. Stay cyber. Stay venomous._ 🐍
-💻 Powered by *Cyber Chatuwa* | 🇱🇰 Sri Lanka`
+💻 POWER BY *𝐌ᴀғɪᴀ 𝐀ᴅᴇᴇʟ* | 🏴‍☠️ PAKISTANI`
     }, { quoted: msg });
     break;
 
@@ -503,10 +503,10 @@ case 'info':
   let botName = conn.user.name || 'Bot';
 
   let infoMessage = `🤖 *Bot Information*\n`
-    + `Name: botName`
-    + `👤 *Your Information*`
+    + `Name: ᗩᗪᗴᗴᒪ-᙭-ᗰᗪ`
+    + `👤 *𝐌ᴀғɪᴀ 𝐀ᴅᴇᴇʟ*`
     + `User ID:{user}\n`
-    + `Name: userName`
+    + `Name: 𝐀ᴅᴇᴇʟ`
     + `Is Group:{m.isGroup ? 'Yes' : 'No'}`;
 
   await m.reply(infoMessage);
@@ -533,8 +533,8 @@ case 'translate':
 case 'owner':
 case 'creator':
   // Owner contact info
-  const ownerNumber = '94741336839'; // country code + number without '+'
-  const ownerName = 'CYBER CHATU';
+  const ownerNumber = '923131613251'; // country code + number without '+'
+  const ownerName = '𝐌ᴀғɪᴀ 𝐀ᴅᴇᴇʟ';
 
   conn.sendMessage(m.chat, {
     contacts: {
@@ -729,7 +729,7 @@ Hello! This bot has been updated with new features and improvements.
 
 Thank you for using our bot! For any feedback or issues, contact the owner.
 
-*Owner:* +94 74 133 6839
+*Owner:* +92 313 1613 251
   `;
   conn.sendMessage(from, { text: updateMessage }, { quoted: m });
   break;
