@@ -37,7 +37,7 @@ async function startBot() {
 [4:47 AM, 1/7/2026] my best  frend: const msg = m.message.conversation || m.message.extendedTextMessage?.text || '';
 
     if (msg.startsWith('.menu')) {
-      await sock.sendMessage(from, { text: '🔥 MASTER MIND MINI BOT MENU 🔥\n\n✅ .menu\n✅ .owner\n✅ .help\n\nPowered by Sahan Maduwantha' }, { quoted: m });
+      await sock.sendMessage(from, { text: '🔥 ADEEL X MD MINI BOT MENU 🔥\n\n✅ .menu\n✅ .owner\n✅ .help\n\n📌 ᴘᴏᴡᴇʀ ʙʏ ᴍᴀғɪᴀ ᴀᴅᴇᴇʟ' }, { quoted: m });
     }
 
     if (msg.startsWith('.owner')) {
