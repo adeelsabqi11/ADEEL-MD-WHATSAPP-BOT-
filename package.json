@@ -15,7 +15,7 @@
   "author": "adeelxmd",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "github:xhclintohn/Baileys",
+    "@whiskeysockets/baileys": "git+https://github.com/xhclintohn/Baileys.git",
     "pino": "^8.0.0"
   }
 }
