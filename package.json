@@ -1,6 +1,3 @@
-
-
-
 {
   "name": "adeel xmd mini-whatsapp-bot",
   "version": "1.0.0",
@@ -18,7 +15,7 @@
   "author": "adeelxmd",
   "license": "MIT",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.5.0",
+    "@whiskeysockets/baileys": "github: xhclintohn/Baileys.git",
     "pino": "^8.0.0"
   }
 }
